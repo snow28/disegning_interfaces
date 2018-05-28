@@ -1,0 +1,16 @@
+aside {
+  position: absolute;
+  display: inline-block;
+  width: 200px; }
+  aside li {
+    margin: 10px;
+    font-weight: 600; }
+  aside input {
+    float: right; }
+  aside .search {
+    width: 150px;
+    margin-left: 20px; }
+    aside .search input {
+      width: 130px; }
+
+/*# sourceMappingURL=aside.css.map */

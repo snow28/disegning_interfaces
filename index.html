@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Designing interfaces</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <div class="login">
+            <p>Before accessing our service you have to <span>log in</span>:</p>
+            <p class="btn js-loginNav">LOGIN</p>
+            <p class="btn js-registerNav">REGISTER</p>
+            <p class="js-errors"></p>
+        </div>
+        <div class="login-block hide">
+            <input type="text" placeholder="Username" class="js-log-name">
+            <input type="text" placeholder="Password" class="js-log-pass">
+            <a href="#" class="js-log-in">Log in</a>
+        </div>
+        <div class="register hide">
+            <input type="text" placeholder="Name" class="js-name">
+            <input type="text" placeholder="Email" class="js-email">
+            <input type="text" placeholder="Username" class="js-username">
+            <input type="password" placeholder="Password" class="js-password">
+            <p class="js-register">Register</p>
+        </div>
+    </div>
+
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script src="js/script.js"></script>
+</body>
+
+</html>

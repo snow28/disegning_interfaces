@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Designing interfaces</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css" rel="stylesheet">
+    <link href="../css/style.css" rel="stylesheet">
+</head>
+
+<body>
+<div class="wrapper">
+
+    <!--     MENU       -->
+
+    <menu class="menu">
+        <ul>
+            <li>
+                <img src="../imgs/logo.png">
+            </li>
+            <li>
+                <a href="../index.html" >Music</a>
+            </li>
+            <li>
+                <a href="./films.html"  class="menu__selected">Films</a>
+            </li>
+        </ul>
+    </menu>
+
+    <!--     ASIDE       -->
+
+    <aside>
+        <ul>
+            <li>
+                Comedies <input type="radio" class="radio-js comedyFilms" checked>
+            </li>
+            <li>
+                Horros <input type="radio" class="radio-js horrorFilms" checked>
+            </li>
+            <li>
+                Documentary <input type="radio"  class="radio-js documentaryFilms" checked>
+            </li>
+            <li>
+                Cartoons <input type="radio" class="radio-js cartoonFilms" checked>
+            </li>
+        </ul>
+        <div class="search">
+            <p>Search:</p>
+            <select class="js-select">
+                <option disabled class="disabled">Horrors</option>
+
+                <option value="dark">The dark side</option>
+                <option value="skin">Skin lies</option>
+                <option value="sweet">Sweet 16</option>
+                <option value="strangers">Strangers</option>
+
+                <option disabled class="disabled">Cartoons</option>
+
+                <option value="simpsons">Simpsons</option>
+                <option value="spangebob">Spange Bob</option>
+                <option value="tom">Tom and Jerry</option>
+                <option value="scooby">Scooby Doo</option>
+
+                <option disabled class="disabled">Documentary</option>
+
+                <option value="usa">USA</option>
+                <option value="citizen">Citizen</option>
+                <option value="corporation">Corporation</option>
+                <option value="henry">Henry</option>
+
+                <option disabled class="disabled">Comedy</option>
+
+                <option value="candy">Candy Jar</option>
+                <option value="sergant">Carry Sergant</option>
+                <option value="dying">I am dying</option>
+                <option value="school">School</option>
+            </select>
+            <p class="js-search-go search-go">GO</p>
+        </div>
+    </aside>
+
+    <!--     MAIN CONTENT       -->
+
+    <div class="content">
+
+        <!--    COMEDY  -->
+
+        <div class="comedy content__filmBlock">
+            <a href="./filmsDescription/candyJar.html" class="comedy"><img src="../films/comedy/candy_jar.jpg"></a>
+            <a href="./filmsDescription/carry_sergant.html" class="comedy"><img src="../films/comedy/carry_sergant.jpg"></a>
+            <a href="./filmsDescription/i_am_dying.html" class="comedy"><img src="../films/comedy/im-dying-up-here.jpg"></a>
+            <a href="./filmsDescription/school.html" class="comedy"><img src="../films/comedy/school.jpg"></a>
+        </div>
+
+        <!--    HORRORS  -->
+
+        <div class="horrors content__filmBlock">
+            <a href="./filmsDescription/the_dark_side.html">
+                <img src="../films/horrors/The_dark_side_of_the_moon.jpg">
+            </a>
+            <a href="./filmsDescription/skin_lies.html">
+                <img src="../films/horrors/Where-the-Skin-Lies-movie.jpg">
+            </a>
+            <a href="./filmsDescription/sweet_16.html">
+                <img src="../films/horrors/sweet_16.jpg">
+            </a>
+            <a href="./filmsDescription/strangers.html">
+                <img src="../films/horrors/strangers.jpg">
+            </a>
+        </div>
+
+        <!--    CARTOONS  -->
+
+        <div class="cartoons content__filmBlock">
+            <a href="./filmsDescription/simpsons.html">
+                <img src="../films/cartoon/Simpsons.png">
+            </a>
+            <a href="./filmsDescription/spangeBob.html">
+                <img src="../films/cartoon/Spongebobwithglasses.jpg">
+            </a>
+            <a href="./filmsDescription/tom-and-jerry.html">
+                <img src="../films/cartoon/tom-and-jerry.png">
+            </a>
+            <a href="./filmsDescription/scooby.html">
+                <img src="../films/cartoon/wiki-scooby-doo-01.jpg">
+            </a>
+        </div>
+
+        <!--    DOCUMENTARY  -->
+
+        <div class="documentary content__filmBlock">
+            <a href="./filmsDescription/usa.html">
+                <img src="../films/documentary/usa.png">
+            </a>
+            <a href="./filmsDescription/citizen.html">
+                <img src="../films/documentary/citizen.jpeg">
+            </a>
+            <a href="./filmsDescription/corporation.html">
+                <img src="../films/documentary/corporation.png">
+            </a>
+            <a href="./filmsDescription/henry.html">
+                <img src="../films/documentary/the_trials_henry.jpeg">
+            </a>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script src="../js/script.js"></script>
+</body>
+
+</html>
